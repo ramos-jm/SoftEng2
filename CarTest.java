@@ -13,7 +13,9 @@ public class CarTest{
         System.out.println("Brand: "+ myCar.brand);
         System.out.println("Transmission: "+ myCar.transmission);
         System.out.println("Engine Type"+ myCar.engineType);
-        System.out.println("Color: "+ myCar.color);
         System.out.println("Capacity: "+ myCar.capacity);
-}
+
+        System.out.println("Color: "+ myCar.color);
+    }
+        
 }

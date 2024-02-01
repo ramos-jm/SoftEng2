@@ -13,6 +13,10 @@ public class Car{
         return engineType;
     }
 
+    public Integer capacity(){
+        return capacity;
+    }
+
     public String transmission(){
         return transmission;
     }
@@ -21,9 +25,6 @@ public class Car{
         return color;
     }
 
-    public Integer capacity(){
-        return capacity;
-    }
 
     private Car(CarBuilder builder){
         this.brand = builder.brand;
